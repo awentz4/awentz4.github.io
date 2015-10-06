@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{ headline }}</h1>
+    <p>{{ byline }}</p>
+    <p>If you're going to a Big 10 university, hopefully you live in that state already. Some of these schools charge out-of-state students almost double the total price of students in-state.</p>
+
+<img src="image.png" />
+  </div>
+</div>
+{% endblock content %}
+
